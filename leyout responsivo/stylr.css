@@ -1,0 +1,95 @@
+#tudo{
+    width: 90%;
+    margin: 0 auto;
+    background-color: red;
+    
+    }
+    header{
+    height: 200px;
+    width: 100%;
+    background-color:rgb(221, 85, 108);
+    float: left;
+    }
+    
+    nav{
+    width: 20%;
+    height: 200px;
+    background-color:rgb(77, 212, 206);
+    float:left;
+    
+    }
+    main{
+    float: left;
+    width: 95%;
+    background-color: green;
+    margin-left: 2.5px;
+    }
+    
+    section{
+    float: left;
+    width: 48%;
+    margin: 1% 1%;
+    background-color: blueviolet;
+    height: 200px;
+    border:none ;
+    
+    
+    }
+    
+    footer{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-color: burlywood;
+    
+    
+    }
+    /*****************MEDIA QUERIES******************/
+    /*****************BREAKPOINTS*******************/
+    @media (min-width: 576px){
+    
+    header{
+    height: 200px;
+    width: 100%;
+    background-color:rgb(221, 85, 108);
+    float: left;
+    }
+    
+    nav{
+    width: 20%;
+    height: 200px;
+    background-color:rgb(77, 212, 206);
+    float:left;
+    
+    }
+    main{
+    float: left;
+    width: 95%;
+    background-color: green;
+    margin-left: 2.5px;
+    }
+    
+    section{
+    float: left;
+    width: 48%;
+    margin: 1% 1%;
+    background-color: blueviolet;
+    height: 200px;
+    border:none ;
+    
+    
+    }
+    
+    footer{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-color: burlywood;
+    
+    
+    }
+    }
+    /******FIM DA MEDIA QUERY RESOLUÇAO ACIMA DE 576PX******/
+    @media (min-width: 768px){
+    
+    }
